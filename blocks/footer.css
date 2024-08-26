@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.copyright {
+  font-family: "Inter Regular", sans-serif;
+}

@@ -1,0 +1,46 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 91.06px;
+}
+
+.logo-icon {
+  margin-bottom: 22px;
+  height: 32px;
+  width: 32px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 91.06px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo-icon {
+    height: 23.77px;
+    width: 23.69px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo-font {
+    width: 188.62px;
+  }
+}

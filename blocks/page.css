@@ -1,0 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.page {
+  background-color: #2a2c2f;
+  color: #ffff;
+  padding-top: 34px;
+  padding-bottom: 24px;
+}
