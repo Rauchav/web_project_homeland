@@ -1,10 +1,10 @@
-.main {
+.content {
   max-width: 984px;
   margin-bottom: 92px;
   margin: 0 auto 92px auto;
 }
 
-.main-title {
+.content-title {
   max-width: 830px;
   font-size: 54px;
   line-height: 1.074;
@@ -12,7 +12,7 @@
   font-family: "Inter Black", sans-serif;
 }
 
-.main-quote {
+.content-quote {
   font-size: 24px;
   line-height: 1.417;
   margin-bottom: 10px;
@@ -20,14 +20,14 @@
   font-family: "Inter Regular", sans-serif;
 }
 
-.main-quote-author {
+.content-quote-author {
   text-align: right;
   margin-bottom: 31.99px;
   max-width: 830px;
   font-family: "Inter Regular", sans-serif;
 }
 
-.main-declaimer {
+.content-declaimer {
   font-size: 16px;
   line-height: 163%;
   max-width: 830px;
@@ -35,27 +35,27 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main {
+  .content {
     max-width: 720px;
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .main {
+  .content {
     max-width: 500px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .main {
+  .content {
     max-width: 288px;
     margin-bottom: 64px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .main-title {
+  .content-title {
     max-width: 707px;
     font-size: 45px;
     line-height: 1.09;
@@ -64,7 +64,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .main-title {
+  .content-title {
     max-width: 288px;
     font-size: 32px;
     margin-bottom: 40px;
