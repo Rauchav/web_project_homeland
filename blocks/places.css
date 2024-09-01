@@ -63,15 +63,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  text-decoration: none;
 }
 
 .places__button:hover {
   background-image: linear-gradient(to right, #0278fe -500px, #003a7b);
-}
-
-.places__button-link {
-  color: white;
-  text-decoration: none;
 }
 
 .places__header-title {
