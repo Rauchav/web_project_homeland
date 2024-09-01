@@ -6,7 +6,7 @@
   margin-bottom: 91.06px;
 }
 
-.logo-icon {
+.logo__icon {
   margin-bottom: 22px;
   height: 32px;
   width: 32px;
@@ -33,14 +33,14 @@
 }
 
 @media screen and (max-width: 320px) {
-  .logo-icon {
+  .logo__icon {
     height: 23.77px;
     width: 23.69px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .logo-font {
+  .logo__font {
     width: 188.62px;
   }
 }

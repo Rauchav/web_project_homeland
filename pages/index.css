@@ -6,8 +6,7 @@
 @import url(../blocks/content.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/grid.css);
-
-/*
+@import url(../blocks/places.css); /*
 .page {
   background-color: #2a2c2f;
   color: #ffff;

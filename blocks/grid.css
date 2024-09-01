@@ -3,10 +3,27 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 16px;
-  padding: 26px 48px 92px 48px;
+  padding: 26px 48px 102px 48px;
 }
 
 .photo-grid-image {
   width: 100%;
   object-fit: cover;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 26px 24px 88px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    padding: 26px 24px 62px 24px;
+  }
 }
