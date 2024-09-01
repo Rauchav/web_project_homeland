@@ -55,12 +55,10 @@
   height: 48px;
   border-radius: 4px;
   border: none;
-  color: white;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.671);
   font-size: 18px;
   font-weight: 600;
-  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,6 +67,11 @@
 
 .places__button:hover {
   background-image: linear-gradient(to right, #0278fe -500px, #003a7b);
+}
+
+.places__button-link {
+  color: white;
+  text-decoration: none;
 }
 
 .places__header-title {
