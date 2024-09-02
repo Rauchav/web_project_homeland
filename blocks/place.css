@@ -17,37 +17,14 @@
   justify-content: end;
 }
 
-.place__image-container {
-  position: relative;
+.place__image {
   max-width: 100%;
   height: 460px;
-}
-
-.place__image {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  z-index: 1;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.place__image-overlay {
-  width: 100%;
-  height: 100%;
-  opacity: 0%;
-  position: absolute;
-  z-index: 2;
-  top: 0;
-}
-
-.place__image-overlay:hover {
-  width: 100%;
-  height: 100%;
-  background-color: black;
+.place__image:hover {
   opacity: 50%;
-  position: absolute;
-  z-index: 2;
-  top: 0;
 }
 
 .place__button {
